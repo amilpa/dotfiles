@@ -1,5 +1,6 @@
 set fish_greeting "Welcome amil"
 
+
 alias cdh "cd ~"
 alias see 'explorer.exe'
 alias vi nvim
@@ -10,10 +11,12 @@ alias ide2 'source ~/ide2.zsh'
 alias tkill 'tmux kill-session'
 alias atach 'tmux attach -t'
 
-
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
+
+set --universal nvm_default_version lts
+
 
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
