@@ -15,7 +15,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set --universal nvm_default_version lts
+# comment this out after first load
+# set --universal nvm_default_version lts
 
 
 # export NVM_DIR="$HOME/.nvm"
