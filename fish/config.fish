@@ -1,4 +1,4 @@
-set fish_greeting "Welcome amil"
+set fish_greeting ""
 
 
 alias cdh "cd ~"
