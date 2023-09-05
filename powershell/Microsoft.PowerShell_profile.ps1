@@ -6,7 +6,6 @@ function List-Files {
     (Get-ChildItem -Name) -join '...'
 }
 
-Set-Alias -Name cdh -Value goHome
 Set-Alias -Name vi -Value nvim
 Set-Alias -Name lol -Value List-Files
 
@@ -16,5 +15,4 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 
 # Set-PsFzfOption -PsReadlineChordProvider 'Ctrl+f' -PsReadlineChordReverseHistory 'Ctrl+r'
 
-Function goHome { cd ~ }
 Invoke-Expression (&starship init powershell)
