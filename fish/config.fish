@@ -7,6 +7,7 @@ starship init fish | source
 alias tmux "tmux -u"
 alias vi "~/nvim/nvim.appimage"
 alias tkill "tmux kill-session"
+alias btop "btop --utf-force"
 
 set -gx TERM screen-256color
 fish_vi_key_bindings
