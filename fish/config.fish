@@ -8,6 +8,7 @@ alias tmux "tmux -u"
 alias vi "~/nvim/nvim.appimage"
 alias tkill "tmux kill-session"
 alias btop "btop --utf-force"
+alias docker "sudo docker"
 
 set -gx TERM screen-256color
 fish_vi_key_bindings
