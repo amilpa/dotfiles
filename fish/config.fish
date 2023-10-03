@@ -10,9 +10,16 @@ alias tkill "tmux kill-session"
 alias btop "btop --utf-force"
 alias docker "sudo docker"
 
+function open
+    vi (find . -type d -print | fzf)
+end
+
 set -gx TERM screen-256color
 fish_vi_key_bindings
-tmux -u
+if not set -q TMUX
+    tmux -u
+end
+
 
 function forward-char-and-accept-autosuggestion-if-at-end
     set -l right_of_cursor "$(string sub "$(commandline)" --start (math (commandline --cursor) + 2))"
