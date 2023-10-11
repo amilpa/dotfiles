@@ -29,3 +29,7 @@ function forward-char-and-accept-autosuggestion-if-at-end
     end
 end
 bind l forward-char-and-accept-autosuggestion-if-at-end
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
