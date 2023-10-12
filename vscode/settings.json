@@ -1,0 +1,185 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "files.autoSave": "afterDelay",
+  "window.titleBarStyle": "custom",
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": false,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": false,
+  "vim.sneak": false,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<S-l>"],
+      "commands": [
+        "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+      ]
+    },
+    // {
+    //   "before": ["<S-h>"],
+    //   "commands": ["workbench.action.previousEditor"]
+    // },
+    {
+      "before": ["g", "s"],
+      "commands": ["rest-client.request"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // {
+    //   "before": ["s"],
+    //   "commands": ["leap.find"]
+    // },
+    {
+      "before": ["s"],
+      "after": ["leader", "leader", "s"]
+    },
+    {
+      "before": ["<C-d>"],
+      "after": ["1", "2", "j"]
+    },
+    {
+      "before": ["<C-u>"],
+      "after": ["1", "2", "k"]
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.nextInFiles"]
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prevInFiles"]
+    },
+    {
+      "before": ["<leader>", "p", "v"],
+      "commands": ["vsnetrw.open"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "after": [":", "q", "!"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.quickOpen"]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-k>"],
+      "commands": ["selectPrevSuggestion"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["s"],
+      "after": ["leader", "leader", "s"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    // VS Code new marker @ next occurence
+    "<C-d>": true,
+    // Copy
+    "<C-c>": false,
+    // Cut
+    "<C-x>": false,
+    // Paste
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-y>": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "editor.wordWrap": "on",
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.lineNumbers": "relative",
+  "terminal.external.windowsExec": "wt.exe",
+  "git.confirmSync": false,
+  "editor.cursorSurroundingLines": 8,
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#595959",
+    "editorLineNumber.activeForeground": "#595959",
+    "editorGutter.background": "#0e0f17",
+    "breadcrumb.foreground": "#ababab"
+  },
+  "editor.tokenColorCustomizations": {
+    "[Default Dark Modern]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "string.quoted.astro",
+            "string.quoted.double.js.jsx",
+            "string.quoted.double.tsx",
+            "string.quoted.double.ts",
+            "string.quoted.double.js",
+            "string.quoted.double.css",
+            "string.template.js.jsx",
+            "string.quoted.double.html",
+            "support.constant.property-value.css"
+          ],
+          "settings": {
+            "foreground": "#44c9b0"
+          }
+        }
+      ]
+    }
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "window.restoreWindows": "none",
+  "background.useFront": false,
+  "background.customImages": [
+    "https://i.ibb.co/6Fms119/Way-more-blue-tint.png"
+  ],
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "fixed",
+    "z-index": "99999",
+    "width": "100%",
+    "height": "100%",
+    "background-position": "center",
+    "background-size": "cover",
+    "background-repeat": "no-repeat",
+    "opacity": 1
+  },
+  "tailwind-fold.autoFold": true,
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.editor.showTabs": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.activityBar.visible": false,
+  "editor.cursorBlinking": "solid",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.fontSize": 15,
+  "search.quickOpen.includeHistory": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "terminal.external.linuxExec": "kitty",
+  "window.zoomLevel": 1,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": false
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.fontFamily": "FiraMono Nerd Font Mono",
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": true,
+    "source.organizeImports": true
+  }
+}
