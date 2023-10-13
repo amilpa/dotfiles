@@ -28,11 +28,11 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     // {
     //   "before": ["s"],
-    //   "commands": ["leap.find"]
+    //   "after": ["leader", "leader", "s"]
     // },
     {
       "before": ["s"],
-      "after": ["leader", "leader", "s"]
+      "commands": ["leap.find"]
     },
     {
       "before": ["<C-d>"],
@@ -51,8 +51,8 @@
       "commands": ["editor.action.marker.prevInFiles"]
     },
     {
-      "before": ["<leader>", "p", "v"],
-      "commands": ["vsnetrw.open"]
+      "before": ["<leader>", "g", "d"],
+      "commands": ["git.openChange"]
     },
     {
       "before": ["<leader>", "q"],
@@ -158,7 +158,6 @@
   "workbench.colorTheme": "Tokyo Night",
   "workbench.editor.showTabs": false,
   "window.menuBarVisibility": "compact",
-  "workbench.activityBar.visible": false,
   "editor.cursorBlinking": "solid",
   "editor.glyphMargin": false,
   "editor.folding": false,
@@ -176,10 +175,10 @@
     "scminput": false,
     "python": false
   },
-  "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.fontFamily": "FiraMono Nerd Font Mono",
   "editor.codeActionsOnSave": {
     "source.addMissingImports": true,
     "source.organizeImports": true
-  }
+  },
+  "workbench.activityBar.visible": false
 }
