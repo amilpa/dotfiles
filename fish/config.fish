@@ -14,6 +14,10 @@ function open
     vi (find . -type d -print | fzf)
 end
 
+function dir
+    cd (find . -type d -print | fzf)
+end
+
 set -gx TERM screen-256color
 fish_vi_key_bindings
 if not set -q TMUX
