@@ -1,0 +1,46 @@
+[/]
+default='20973b0f-a7cb-4fdd-bdfc-53cff02014c8'
+list=['20973b0f-a7cb-4fdd-bdfc-53cff02014c8']
+
+[:20973b0f-a7cb-4fdd-bdfc-53cff02014c8]
+background-color='rgb(31,31,31)'
+cursor-background-color='rgb(82,79,103)'
+cursor-foreground-color='rgb(224,222,244)'
+default-size-columns=511
+default-size-rows=511
+font='FiraMono Nerd Font Mono 13'
+foreground-color='rgb(211,215,207)'
+highlight-background-color='rgb(64,61,82)'
+highlight-foreground-color='rgb(224,222,244)'
+palette=['rgb(23,20,33)', 'rgb(255,255,255)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(59,156,240)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(28,28,28)', 'rgb(27,27,27)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(94,150,219)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Default'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(30,30,30)'
+cursor-shape='block'
+default-size-columns=120
+default-size-rows=120
+font='FiraMono Nerd Font Mono 14'
+foreground-color='rgb(208,207,204)'
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(75,144,229)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(14,14,14)', 'rgb(246,97,81)', 'rgb(51,218,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+
+[:one-dark]
+background-color='#282c34'
+bold-color='#ABB2BF'
+bold-color-same-as-fg=true
+cursor-shape='block'
+default-size-columns=120
+default-size-rows=120
+font='FiraMono Nerd Font Mono 14'
+foreground-color='#abb2bf'
+palette=['#000000', '#e06c75', '#98c379', '#d19a66', '#61afef', '#c678dd', '#56b6c2', '#abb2bf', '#5c6370', '#e06c75', '#98c379', '#d19a66', '#61afef', '#c678dd', '#56b6c2', '#ffffff']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+visible-name='One Dark'
