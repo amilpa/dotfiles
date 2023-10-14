@@ -109,10 +109,10 @@
   "git.confirmSync": false,
   "editor.cursorSurroundingLines": 8,
   "workbench.colorCustomizations": {
-    "editorLineNumber.foreground": "#595959",
-    "editorLineNumber.activeForeground": "#595959",
-    "editorGutter.background": "#0e0f17",
-    "breadcrumb.foreground": "#ababab"
+    // "editorLineNumber.foreground": "#595959",
+    // "editorLineNumber.activeForeground": "#595959",
+    // "editorGutter.background": "#0e0f17",
+    // "breadcrumb.foreground": "#ababab"
   },
   "editor.tokenColorCustomizations": {
     "[Default Dark Modern]": {
@@ -138,6 +138,7 @@
   },
   "git.openRepositoryInParentFolders": "never",
   "window.restoreWindows": "none",
+  "background.enabled": false,
   "background.useFront": false,
   "background.customImages": [
     "https://i.ibb.co/6Fms119/Way-more-blue-tint.png"
@@ -155,18 +156,16 @@
     "opacity": 1
   },
   "tailwind-fold.autoFold": true,
-  "workbench.colorTheme": "Tokyo Night",
   "workbench.editor.showTabs": false,
   "window.menuBarVisibility": "compact",
   "editor.cursorBlinking": "solid",
-  "editor.glyphMargin": false,
-  "editor.folding": false,
+  "editor.glyphMargin": true,
+  "editor.folding": true,
   "editor.fontSize": 15,
   "search.quickOpen.includeHistory": false,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
-  "terminal.external.linuxExec": "kitty",
   "window.zoomLevel": 1,
   "github.copilot.enable": {
     "*": true,
