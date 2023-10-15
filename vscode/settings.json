@@ -114,28 +114,28 @@
     // "editorGutter.background": "#0e0f17",
     // "breadcrumb.foreground": "#ababab"
   },
-  "editor.tokenColorCustomizations": {
-    "[Default Dark Modern]": {
-      "textMateRules": [
-        {
-          "scope": [
-            "string.quoted.astro",
-            "string.quoted.double.js.jsx",
-            "string.quoted.double.tsx",
-            "string.quoted.double.ts",
-            "string.quoted.double.js",
-            "string.quoted.double.css",
-            "string.template.js.jsx",
-            "string.quoted.double.html",
-            "support.constant.property-value.css"
-          ],
-          "settings": {
-            "foreground": "#44c9b0"
-          }
-        }
-      ]
-    }
-  },
+  // "editor.tokenColorCustomizations": {
+  //   "[Default Dark Modern]": {
+  //     "textMateRules": [
+  //       {
+  //         "scope": [
+  //           "string.quoted.astro",
+  //           "string.quoted.double.js.jsx",
+  //           "string.quoted.double.tsx",
+  //           "string.quoted.double.ts",
+  //           "string.quoted.double.js",
+  //           "string.quoted.double.css",
+  //           "string.template.js.jsx",
+  //           "string.quoted.double.html",
+  //           "support.constant.property-value.css"
+  //         ],
+  //         "settings": {
+  //           "foreground": "#44c9b0"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
   "git.openRepositoryInParentFolders": "never",
   "window.restoreWindows": "none",
   "background.enabled": false,

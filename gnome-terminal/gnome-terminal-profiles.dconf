@@ -6,6 +6,7 @@ list=['20973b0f-a7cb-4fdd-bdfc-53cff02014c8']
 background-color='rgb(31,31,31)'
 cursor-background-color='rgb(82,79,103)'
 cursor-foreground-color='rgb(224,222,244)'
+cursor-shape='block'
 default-size-columns=511
 default-size-rows=511
 font='FiraMono Nerd Font Mono 13'
