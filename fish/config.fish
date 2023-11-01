@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 starship init fish | source
-# set --universal nvm_default_version lts
+set --universal nvm_default_version lts
 alias tmux "tmux -u"
 alias vi "~/nvim/nvim.appimage"
 alias tkill "tmux kill-session"
