@@ -9,6 +9,7 @@ alias vi "~/nvim/nvim.appimage"
 alias tkill "tmux kill-session"
 alias btop "btop --utf-force"
 alias docker "sudo docker"
+abbr -a -g c clear
 
 function open
     vi (find . -type d -print | fzf)
