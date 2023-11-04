@@ -9,6 +9,7 @@ alias vi "~/nvim/nvim.appimage"
 alias tkill "tmux kill-session"
 alias btop "btop --utf-force"
 alias docker "sudo docker"
+alias cpytm "tmux save-buffer - | xclip -selection clipboard"
 abbr -a -g c clear
 
 function open
