@@ -156,7 +156,7 @@
     "opacity": 1
   },
   "tailwind-fold.autoFold": true,
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": "single",
   "window.menuBarVisibility": "compact",
   "editor.cursorBlinking": "solid",
   "editor.glyphMargin": true,
@@ -166,7 +166,6 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
-  "window.zoomLevel": 1,
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -179,5 +178,12 @@
     "source.addMissingImports": true,
     "source.organizeImports": true
   },
-  "workbench.activityBar.visible": false
+  "window.zoomLevel": 1,
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "workbench.activityBar.location": "hidden",
+  "terminal.external.linuxExec": "kitty",
+  "workbench.colorTheme": "poimandres",
+  "headwind.runOnSave": false
 }
